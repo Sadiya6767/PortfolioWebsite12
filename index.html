@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MY PORTFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2 class="A">About Me</h2>
+        <img src="myphoto.jpg" alt="My Photo">
+        <p>Hello! I am Sadiya, a web developer with a passion for creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="projects">
+        <h2 class="A">Projects</h2>
+        <div class="project">
+            <h3>1:- Project One</h3>
+            <img src="project1.png" alt="Project One">
+            <p>DISCRIPTION:-
+                The objective of this project is to create a web-based replica of Instagram's homepage using HTML & CSS. 
+                The focus will be on mimicking the layout, design, and functionality of the Instagram app's main feed view.
+                &nbsp;Key Features to Implement:<br>
+                      1: Header<br>
+                      2: footer<br>
+                      3: Nav<br>
+                      This project aims to provide hands-on experience in front-end web development by replicating a popular 
+                      social media platform's homepage. It combines HTML & CSS skills to create a visually appealing and 
+                      functional web page that resembles Instagram’s main feed interface.    
+            </p>
+        </div>
+        <div class="project">
+            <h3>2:- Project Two</h3>
+            <img src="project2.png" alt="Project Two">
+            <p>DISCRIPTION:- 
+                The objective of this project is to create a web page where users can view and manage their personal information 
+                in a secure and user-friendly manner. This could be part of a larger web application that includes user 
+                authentication and account management functionalities.<br>
+                Technologies Used:<br>
+                HTML: For structuring the content and forms.<br>
+                CSS: For styling the page and ensuring a cohesive design.<br>
+            </p>
+        </div>
+        <div class="project">
+            <h3>3:- Project Three</h3>
+            <img src="project3.png" alt="Project Three">
+            <p>DISCRIPTION:-
+                The objective of this project is to create a web application that provides a detailed recipe for making apple pie.
+                Users will be able to view ingredients, step-by-step instructions, and possibly other related content like 
+                nutritional information or tips for variations.<br>
+                Technologies Used:<br>
+                1: HTML<br>
+                2: CSS<br>
+                This project aims to provide a practical exercise in web development and design, focusing on creating a user-friendly
+                interface for presenting a classic recipe. By completing this project, you will gain experience in HTML & CSS, while 
+                also practicing content organization and user interface design principles. Additionally, you can explore optional 
+                features like user accounts or advanced styling techniques to enhance the project further.
+            </p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="A">Contact</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sadiya. All rights reserved.</p>
+    </footer>
+</body>
+</html>
